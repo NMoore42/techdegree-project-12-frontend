@@ -10,21 +10,22 @@ An asset overview tool providing real-time data on personalized cryptocurrency p
 
 /////// HISTORICAL CRYPTOCURRENCY DATA NOTES /////////
 
-Initially, my intention was to include Coin Market Cap as a third API to serve historical data.  However, Coin Market Cap limits their free API to exclude this information.  Because of this, the historical data will need to be manually seeded from the seed-data folder provided and will not actually reflect current market prices.
+Initially, my intention was to include Coin Market Cap as a third API to serve historical data.  However, Coin Market Cap limits their free API to exclude this information.  Because of this, the historical was manually seeded from the seed-data folder provided and will not actually reflect current market prices.
 
 
 /////// START UP INSTRUCTIONS /////////
 
-1.  Navigate to the backend folder and run npm install
-2.  On another terminal, navigate to the front end folder and run npm install
-3.  Navigate to the seed-file and run the following:
+The front end is hosted at: https://nmoore42.github.io/techdegree-project-12-frontend/
+The front end repo can be found at: https://github.com/NMoore42/techdegree-project-12-frontend
+The back end is hosted at: https://techdegree-project-12-backend.herokuapp.com/
+The back end repo can be found at: https://github.com/NMoore42/techdegree-project-12-backend
 
-mongoimport --db cmc-api --collection cryptos --type=json --jsonArray --file cryptos.json
+To start, simply navigate to https://nmoore42.github.io/techdegree-project-12-frontend/
 
-4.  Start mongod
-5.  Navigate to the backend folder and run npm start
-6.  Navigate to the frontend folder and run npm start
+If you'd like to run the front end locally, clone them from https://github.com/NMoore42/techdegree-project-12-frontend and then run:
 
+1.  npm install
+2.  npm start
 
 
 /////// APP NAVIGATION /////////
