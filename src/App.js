@@ -106,7 +106,7 @@ export default class App extends Component {
   }
 
   handleArticleSave = (articleData, coinKey) => {
-    fetch("http://localhost:5000/api/articles", {
+    fetch("https://techdegree-project-12-backend.herokuapp.com/api/articles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -122,7 +122,7 @@ export default class App extends Component {
   }
 
   handleArticleRemove = (articleData, coinImgKey) => {
-    fetch("http://localhost:5000/api/articlesdelete", {
+    fetch("https://techdegree-project-12-backend.herokuapp.com/api/articlesdelete", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -167,7 +167,7 @@ export default class App extends Component {
 
   createNewTransaction = () => {
     const coinSelect = this.state.historicalPrices
-    fetch("http://localhost:5000/api/transactions", {
+    fetch("https://techdegree-project-12-backend.herokuapp.com/api/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -230,7 +230,7 @@ export default class App extends Component {
   }
 
   loginUser = () => {
-    fetch("http://localhost:5000/api/login", {
+    fetch("https://techdegree-project-12-backend.herokuapp.com/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -272,7 +272,7 @@ export default class App extends Component {
   }
 
   handleDeleteProfile = () => {
-    fetch(`http://localhost:5000/api/users/${this.state.userId}`)
+    fetch(`https://techdegree-project-12-backend.herokuapp.com/api/users/${this.state.userId}`)
       .then(res => res.json())
       .then(res => this.logOut())
   }
@@ -293,7 +293,7 @@ export default class App extends Component {
   }
 
   signUpUser = () => {
-    fetch("http://localhost:5000/api/users", {
+    fetch("https://techdegree-project-12-backend.herokuapp.com/api/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -365,7 +365,7 @@ export default class App extends Component {
   }
 
   getHistoricalCoinPrices = () => {
-    fetch("http://localhost:5000/api/cryptos")
+    fetch("https://techdegree-project-12-backend.herokuapp.com/api/cryptos")
       .then(res => res.json())
       .then(coinData => this.setState({historicalPrices: coinData}))
   }
