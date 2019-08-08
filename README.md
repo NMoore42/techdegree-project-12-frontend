@@ -16,8 +16,11 @@ Initially, my intention was to include Coin Market Cap as a third API to serve h
 /////// START UP INSTRUCTIONS /////////
 
 The front end is hosted at: https://nmoore42.github.io/techdegree-project-12-frontend/
+
 The front end repo can be found at: https://github.com/NMoore42/techdegree-project-12-frontend
+
 The back end is hosted at: https://techdegree-project-12-backend.herokuapp.com/
+
 The back end repo can be found at: https://github.com/NMoore42/techdegree-project-12-backend
 
 To start, simply navigate to https://nmoore42.github.io/techdegree-project-12-frontend/
