@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/techdegree-project-12-frontend/static/css/main.2cce8147.chunk.css",
+    "main.js": "/techdegree-project-12-frontend/static/js/main.bdf8f253.chunk.js",
+    "main.js.map": "/techdegree-project-12-frontend/static/js/main.bdf8f253.chunk.js.map",
+    "runtime~main.js": "/techdegree-project-12-frontend/static/js/runtime~main.30698e62.js",
+    "runtime~main.js.map": "/techdegree-project-12-frontend/static/js/runtime~main.30698e62.js.map",
+    "static/css/2.545747f9.chunk.css": "/techdegree-project-12-frontend/static/css/2.545747f9.chunk.css",
+    "static/js/2.d5ed149f.chunk.js": "/techdegree-project-12-frontend/static/js/2.d5ed149f.chunk.js",
+    "static/js/2.d5ed149f.chunk.js.map": "/techdegree-project-12-frontend/static/js/2.d5ed149f.chunk.js.map",
+    "index.html": "/techdegree-project-12-frontend/index.html",
+    "precache-manifest.bed5f64214eaf85258f14d34851029fc.js": "/techdegree-project-12-frontend/precache-manifest.bed5f64214eaf85258f14d34851029fc.js",
+    "service-worker.js": "/techdegree-project-12-frontend/service-worker.js",
+    "static/css/2.545747f9.chunk.css.map": "/techdegree-project-12-frontend/static/css/2.545747f9.chunk.css.map",
+    "static/css/main.2cce8147.chunk.css.map": "/techdegree-project-12-frontend/static/css/main.2cce8147.chunk.css.map",
+    "static/media/ada.svg": "/techdegree-project-12-frontend/static/media/ada.f092ba2f.svg",
+    "static/media/bch.svg": "/techdegree-project-12-frontend/static/media/bch.52f348b2.svg",
+    "static/media/btc.svg": "/techdegree-project-12-frontend/static/media/btc.e73cb1b2.svg",
+    "static/media/eos.svg": "/techdegree-project-12-frontend/static/media/eos.d431754f.svg",
+    "static/media/eth.svg": "/techdegree-project-12-frontend/static/media/eth.92b1ce20.svg",
+    "static/media/logo.png": "/techdegree-project-12-frontend/static/media/logo.bf9c2c6e.png",
+    "static/media/ltc.svg": "/techdegree-project-12-frontend/static/media/ltc.cdae0850.svg",
+    "static/media/index.css": "/techdegree-project-12-frontend/static/media/roboto-latin-900italic.bc833e72.woff",
+    "static/media/trx.svg": "/techdegree-project-12-frontend/static/media/trx.d974e8da.svg",
+    "static/media/xlm.svg": "/techdegree-project-12-frontend/static/media/xlm.da4b4503.svg",
+    "static/media/xrp.svg": "/techdegree-project-12-frontend/static/media/xrp.d49b3986.svg",
+    "static/media/zec.svg": "/techdegree-project-12-frontend/static/media/zec.5a906a1d.svg"
+  }
+}
