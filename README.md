@@ -2,9 +2,13 @@
 Capstone Project for Team Treehouse Fullstack JavaScript TechDegree
 
 Coin Market App
+
 An asset overview tool providing real-time data on personalized cryptocurrency portfolios.
+
 -Node.js backend using Express, Bcrypt, and MongoDB with endpoints for users, transactions, articles, and cryptocurrencies.
+
 -Utilizes Newsapi and Cryptonator APIs to pull live cryptocurrency news and prices.
+
 -User interface employs React with Material-Ui for styling.
 
 
