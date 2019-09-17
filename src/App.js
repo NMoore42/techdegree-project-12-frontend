@@ -352,13 +352,13 @@ export default class App extends Component {
   }
 
   getNewsArticles = () => {
-    const newsAPI = "d695935ffeda42deba77d5caaee2a58f"
+    const newsAPI = "2f38bfdff2ec4f079a5be95fa55c571c"
     for (let key in coins) {
       fetch(`https://newsapi.org/v2/everything?q=${coins[key]}&apiKey=${newsAPI}`)
         .then(res => res.json())
         .then(data => this.setState(prevState => {
           let articles = Object.assign({}, prevState.articles);
-          articles[key] = data.articles.filter(obj => obj.title.includes(key));
+          articles[key] = data.articles.filter(obj => obj.title && obj.title.includes(key));
           return { articles };
         }))
     }
