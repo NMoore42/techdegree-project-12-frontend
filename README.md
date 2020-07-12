@@ -16,10 +16,13 @@ An asset overview tool providing real-time data on personalized cryptocurrency p
 
 Initially, my intention was to include Coin Market Cap as a third API to serve historical data.  However, Coin Market Cap limits their free API to exclude this information.  Because of this, the historical was manually seeded from the seed-data folder provided and will not actually reflect current market prices.
 
+/////// NEWSAPI DATA NOTES /////////
+
+On 22 May 2020 newsapi updated the liberties of the free developer keys to reject any request using a free key that is not coming from localhost. Because of this, this app no longer operates when hosted by github pages. To use the app, please follow local front-end installation instructions below:
+
 
 /////// START UP INSTRUCTIONS /////////
 
-The front end is hosted at: https://nmoore42.github.io/techdegree-project-12-frontend/
 
 The front end repo can be found at: https://github.com/NMoore42/techdegree-project-12-frontend
 
